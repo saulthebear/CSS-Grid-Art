@@ -1,0 +1,79 @@
+
+#container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-areas:
+    'item1 item1 item2 item2 item3 item3'
+    'item4 item5 item5 item5 item3 item3'
+    'item4 item5 item5 item5 item6 item6'
+    'item7 item5 item5 item5 item6 item6'
+    'item7 item5 item5 item5 item6 item6'
+    'item8 item8 item8 item8 item6 item6'
+    'item8 item8 item8 item8 item9 item9';
+}
+#item1 { 
+  grid-area: item1; 
+  background-color: white;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+#item2 { 
+  grid-area: item2;
+  background-color: yellow; 
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#item3 { 
+  grid-area: item3;
+  background-color: darkgrey; 
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#item4 { 
+  grid-area: item4; 
+  background-color: white;
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+#item5 { 
+  grid-area: item5; 
+  background-color: white;
+  border: 5px solid black;
+}
+
+#item6 { 
+  grid-area: item6; 
+  background-color: white;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+}
+
+#item7 { 
+  grid-area: item7; 
+  background-color: blue;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+}
+
+#item8 { 
+  grid-area: item8; 
+  background-color: white;
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+}
+
+#item9 { 
+  grid-area: item9; 
+  background-color: red;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+}
+
