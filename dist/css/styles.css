@@ -1,0 +1,169 @@
+body {
+  margin: 0; }
+
+.painting {
+  height: 20rem;
+  aspect-ratio: 1/1;
+  border: 2rem solid gold;
+  display: grid;
+  gap: 0.5rem;
+  background-color: black;
+  color: transparent; }
+
+.gallery {
+  padding-block: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: space-evenly; }
+
+.debug-painting {
+  color: gold; }
+  .debug-painting .section {
+    border: 1px solid green; }
+
+#tableau2 {
+  grid-template-rows: 1fr 1fr 2fr 2fr 1fr 1fr;
+  grid-template-columns: 1fr 5fr 5fr 3fr; }
+  #tableau2 .white {
+    background-color: white; }
+  #tableau2 .section1 {
+    grid-column: 1 / 3; }
+  #tableau2 .section2 {
+    background-color: yellow; }
+  #tableau2 .section3 {
+    background-color: black;
+    grid-column: 4/5;
+    grid-row: 1/3; }
+  #tableau2 .section4 {
+    grid-column: 1/2;
+    grid-row: 2/4; }
+  #tableau2 .section5 {
+    grid-column: 2/4;
+    grid-row: 2/5; }
+  #tableau2 .section6 {
+    grid-row: 3/6;
+    grid-column: 4/5; }
+  #tableau2 .section7 {
+    background-color: blue; }
+  #tableau2 .section8 {
+    grid-column: 1/4;
+    grid-row: 5/7; }
+  #tableau2 .section9 {
+    background-color: red;
+    grid-column: -2/-1; }
+
+#tableau1 {
+  aspect-ratio: 346/550;
+  grid-template-columns: 3fr 6fr 20fr 5fr 1fr;
+  grid-template-rows: 2fr 8fr 5fr 1fr 2fr 4fr; }
+  #tableau1 .section1 {
+    grid-column: 1/3;
+    grid-row: 1/2; }
+  #tableau1 .section2 {
+    background-color: red;
+    grid-column: 3/-1;
+    grid-row: 1/3; }
+  #tableau1 .section3 {
+    background-color: white;
+    grid-column: 1/3;
+    grid-row: 2/4; }
+  #tableau1 .section4 {
+    background-color: silver;
+    grid-column: 3/-2;
+    grid-row: 3/4; }
+  #tableau1 .section5 {
+    background-color: white;
+    grid-column: -2/-1;
+    grid-row: 3/6; }
+  #tableau1 .section6 {
+    background-color: black;
+    grid-column: 1/2;
+    grid-row: 4/5; }
+  #tableau1 .section7 {
+    background-color: silver;
+    grid-column: 2/3;
+    grid-row: 4/-1; }
+  #tableau1 .section8 {
+    background-color: silver;
+    grid-column: 3/-2;
+    grid-row: -4/-2; }
+  #tableau1 .section9 {
+    background-color: yellow;
+    grid-row: -3/-1; }
+  #tableau1 .section10 {
+    background-color: white;
+    grid-column: 3/-3; }
+  #tableau1 .section11 {
+    background-color: blue;
+    grid-column: -3/-1; }
+
+#compositionC {
+  grid-template-columns: 2fr 7fr 6fr 5fr;
+  grid-template-rows: 11fr 6fr 8fr 1fr; }
+  #compositionC .section1 {
+    background-color: red;
+    grid-column: 1/3; }
+  #compositionC .section2 {
+    background-color: white;
+    grid-column: 3/-1; }
+  #compositionC .section3 {
+    background-color: white;
+    grid-column: 1/3; }
+  #compositionC .section4 {
+    background-color: white;
+    grid-column: 3/-1; }
+  #compositionC .section5 {
+    background-color: yellow;
+    grid-row: -3/-1; }
+  #compositionC .section6 {
+    background-color: white;
+    grid-row: -3/-1; }
+  #compositionC .section7 {
+    background-color: blue; }
+  #compositionC .section8 {
+    background-color: white; }
+  #compositionC .section9 {
+    background-color: white; }
+
+#composition2 {
+  grid-template-columns: 9fr 24fr 2fr;
+  grid-template-rows: 6fr 7fr 2fr 2fr; }
+  #composition2 .section1 {
+    background-color: bisque; }
+  #composition2 .section2 {
+    background-color: red;
+    grid-column: 2/-1;
+    grid-row: 1/3; }
+  #composition2 .section3 {
+    background-color: bisque; }
+  #composition2 .section4 {
+    background-color: blue;
+    grid-row: -3/-1; }
+  #composition2 .section5 {
+    background-color: bisque;
+    grid-row: 3/5; }
+  #composition2 .section6 {
+    background-color: bisque; }
+  #composition2 .section7 {
+    background-color: goldenrod; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif; }
+
+.art-with-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem; }
+
+.card {
+  background-color: #ddd;
+  width: 20ch;
+  padding: 1em; }
+
+/*# sourceMappingURL=styles.css.map */
